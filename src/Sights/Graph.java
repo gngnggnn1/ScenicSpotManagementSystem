@@ -35,8 +35,8 @@ public class Graph{
      */
     ArrayList<Vertex> verArray = new ArrayList<Vertex>();
     ArrayList<String> vers = new ArrayList<String>();//存储节点名称
-	ArrayList<String> edges = new ArrayList<String>();//存储各边信息
-	ArrayList<String> edgesTodel = new ArrayList<String>();
+    ArrayList<String> edges = new ArrayList<String>();//存储各边信息
+    ArrayList<String> edgesTodel = new ArrayList<String>();
 	
     public void printSightList(Graph graph) { //输出邻接表
     	 for (int i=0;i<graph.verNum;i++){
